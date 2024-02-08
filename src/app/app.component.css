@@ -1,0 +1,33 @@
+.button-class{
+    display: flex;
+    justify-content: center;
+
+}
+.valid-btn{
+    background-color: green;
+}
+
+.Invalid-btn{
+    background-color: red;
+}
+
+.data-container {
+    margin-top: 20px; /* Adjust the margin as needed */
+  }
+  
+  .box {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #28bae2;
+    width: 500px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+ul#remove {
+    list-style-type: none;
+    padding: 0;
+}

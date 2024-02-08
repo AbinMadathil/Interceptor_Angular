@@ -1,0 +1,21 @@
+<!-- app.component.html -->
+
+<div>
+  <div class="buttonm-class">
+    <h1>{{ title }}</h1>
+    <button class="valid-btn" (click)="callValidApi()"> Valid API</button>
+    <button class="Invalid-btn" (click)="callFakeApi()"> Fake API</button>
+  </div>
+
+  <div *ngIf="Data$" class="data-container">
+    <h2>Data from Valid API:</h2>
+    <div class="box">
+      <ul id="remove">
+        <li *ngFor="let user of Data$.slice(0, 5)">
+          {{ user.userId }} | {{ user.title }}
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
